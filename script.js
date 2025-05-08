@@ -33,7 +33,7 @@ botaoBuscar.addEventListener('click', async () => {
 
     function corDotipo(tipo) {
         const cores = {
-            eletric:"##fcd603",
+            eletric:"#fcd603",
             fire: "#f94144",
             water: "#577590",
             grass: "#f9c74f",
@@ -52,6 +52,6 @@ botaoBuscar.addEventListener('click', async () => {
             flying: "#48cae4",
             steel: "#8d99ae"
         };
-        return cores[tipo] || "#000000";
+        return cores[tipo] || "#fcd603";
     }
 });
